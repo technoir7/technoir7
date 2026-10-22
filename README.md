@@ -10,6 +10,11 @@ rules, leaked secrets. I measured it on 120 public apps, and
 [the write-up](https://github.com/technoir7/seamscan/blob/main/docs/writeup.md)
 covers what that showed and what I changed because of it.
 
+**Also:** [chess_coach](https://github.com/technoir7/chess_coach), a chess
+coach where engines establish the facts and a language model only puts them
+into words. Over twelve blind-labelled rounds on fresh positions, explanations
+that say something false went from 32 in 100 to 1 in 100.
+
 **Recently:** lead engineer (contract) taking an AI-built startup app to
 launch, with security audits, payments, CI gates and a suite of about 8k tests.
 Also built a governed multi-agent system with approval gates, a kill switch
@@ -17,5 +22,5 @@ and evals.
 
 **Background:** UC Berkeley. TypeScript, Python, Postgres.
 
-**Open to consulting:** hardening AI-built apps, agent guardrails and evals.
-Reach me at aaronfung77@gmail.com.
+**Open to** full-time AI engineering roles, and to consulting: hardening
+AI-built apps, agent guardrails and evals. Reach me at aaronfung77@gmail.com.
