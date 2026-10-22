@@ -15,6 +15,12 @@ coach where engines establish the facts and a language model only puts them
 into words. Over twelve blind-labelled rounds on fresh positions, explanations
 that say something false went from 32 in 100 to 1 in 100.
 
+**And:** [exception_resolution_model_orchestrator](https://github.com/technoir7/exception_resolution_model_orchestrator),
+which checks supplier invoices before payment: rules flag what doesn't match,
+Claude reads the documents and says pay or hold. On 200 test invoices it
+caught all 18 bad payments the rules let through, sent no payable invoice to a
+person, and the cheapest model did it for $0.58 per thousand invoices.
+
 **Recently:** lead engineer (contract) taking an AI-built startup app to
 launch, with security audits, payments, CI gates and a suite of about 8k tests.
 Also built a governed multi-agent system with approval gates, a kill switch
