@@ -16,10 +16,12 @@ into words. Over twelve blind-labelled rounds on fresh positions, explanations
 that say something false went from 32 in 100 to 1 in 100.
 
 **And:** [exception_resolution_model_orchestrator](https://github.com/technoir7/exception_resolution_model_orchestrator),
-which checks supplier invoices before payment: rules flag what doesn't match,
-Claude reads the documents and says pay or hold. On 200 hard test invoices it
-caught all 58 bad payments the rules let through, held just 2 payable ones for
-a person, and the cheapest model did it for $0.62 per thousand invoices.
+which checks supplier invoices before payment: Claude reads each invoice, as
+data or from a PDF, checks it against the purchase order and receipts, and says
+pay or hold. On 200 hard test invoices it caught all 58 bad payments the rules
+let through, held just 2 payable ones for a person, and the cheapest model did
+it for $0.62 per thousand invoices. Given the same invoices as PDFs, it read
+all 200 exactly.
 
 **Recently:** lead engineer (contract) taking an AI-built startup app to
 launch, with security audits, payments, CI gates and a suite of about 8k tests.
