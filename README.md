@@ -42,5 +42,5 @@ and evals.
 
 **Background:** UC Berkeley. TypeScript, Python, Postgres.
 
-**Open to** full-time AI engineering roles, and to consulting: hardening
+**Open to** full-time roles building AI systems, and to consulting: hardening
 AI-built apps, agent guardrails and evals. Reach me at aaronfung77@gmail.com.
