@@ -26,6 +26,7 @@ covers what that showed and what I changed because of it.
 coach where engines establish the facts and a language model only puts them
 into words. Over twelve blind-labelled rounds on fresh positions, explanations
 that say something false went from 32 in 100 to 1 in 100.
+[See every answer, checked.](https://technoir7.github.io/chess_coach/)
 
 **Plus:** [exception_resolution_model_orchestrator](https://github.com/technoir7/exception_resolution_model_orchestrator),
 which checks supplier invoices before payment: Claude reads each invoice, as
